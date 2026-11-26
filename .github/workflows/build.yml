@@ -9,7 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Extract project
-        run: unzip -o MahamiApp-v2.zip
+        run: unzip -o "MahamiApp-v3 (1).zip"
+
       - uses: actions/setup-java@v4
         with:
           java-version: '17'
